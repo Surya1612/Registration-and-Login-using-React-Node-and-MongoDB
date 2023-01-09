@@ -10,7 +10,7 @@ export default function App() {
     <BrowserRouter>
     <div >
     <Routes>
-      <Route exact path='/home' element={<Home />}></Route>
+      <Route exact path='/' element={<Home />}></Route>
       {/* <Route path='/signup' element={<Register />}></Route>
       <Route path='/login' element={<Login />}></Route> */}
      </Routes>
